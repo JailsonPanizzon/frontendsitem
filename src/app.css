@@ -1,0 +1,137 @@
+.Login {
+  height: 100vh;
+  background-image: linear-gradient(#00bfa5, #0091ea);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-stretch: condensed;
+}
+head {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-stretch: condensed;
+}
+.containerCadastro {
+  margin-top: 3%;
+  border: 2px solid;
+  border-radius: 3px;
+  border-color: rgb(209, 209, 209);
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  margin-left: 25%;
+}
+.cadastroForm {
+  padding: 3%;
+}
+.loading {
+  width: 100%;
+  position: fixed;
+  margin-left: 40%;
+  margin-top: 20%;
+}
+.Card {
+  width: 400px;
+}
+.Logo {
+  text-align: center;
+}
+.TextField {
+  width: 100%;
+}
+.Link {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #0c3f8d;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+.Botao {
+  width: 100%;
+  height: 50px;
+}
+.cabecalho {
+  text-size-adjust: 10%;
+  font-size: 0pt;
+  font-weight: bold;
+}
+
+.ItemLista {
+  margin: 1%;
+  align-content: center;
+}
+.row1 {
+  background-color: rgb(238, 238, 238);
+}
+
+.row0 {
+  background-color: white;
+}
+.Lista {
+  vertical-align: middle;
+  margin: 2%;
+}
+.filtros {
+  vertical-align: middle;
+  height: 80%;
+  border: 2px solid;
+  border-radius: 3px;
+  border-color: rgb(209, 209, 209);
+  width: 15%;
+  float: left;
+  vertical-align: middle;
+  position: fixed;
+  overflow: auto;
+}
+
+.painelLateral {
+  vertical-align: top;
+  height: 88%;
+  border: 2px solid;
+  border-radius: 3px;
+  border-color: rgb(209, 209, 209);
+  width: 15%;
+  float: left;
+  vertical-align: middle;
+  position: fixed;
+  overflow: auto;
+}
+
+.categoria {
+  float: left;
+  color: gray;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-stretch: condensed;
+  height: 90%;
+  width: 100%;
+  object-fit: contain;
+}
+#tituloFiltros {
+  align-content: center;
+  width: 100%;
+}
+.pagefiltro {
+  margin-bottom: 20%;
+}
+.itens {
+  border: 2px solid;
+  border-radius: 3px;
+  border-color: rgb(209, 209, 209);
+  margin-left: 20%;
+  background-color: white;
+  width: 80%;
+  float: left;
+  height: 80%;
+}
+.itemFiltro {
+  margin-left: 5%;
+  margin-right: 6%;
+  margin-top: 10%;
+  width: 90%;
+  float: left;
+}
