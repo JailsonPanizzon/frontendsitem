@@ -1,6 +1,6 @@
 {
-  "name": "app",
-  "version": "0.1.0",
+  "name": "sitem",
+  "version": "1.0.0",
   "private": true,
   "engines": {
     "node": "12.13.0"
@@ -35,7 +35,11 @@
     "react-scripts": "3.1.1"
   },
   "scripts": {
-    "start": "node nmp start"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+
   },
   "eslintConfig": {
     "extends": "react-app"
